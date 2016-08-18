@@ -4,6 +4,9 @@
 #include "ModuleInterface.h"
 
 
+DEFINE_LOG_CATEGORY(LogCommandletPlugin);
+
+
 /**
  * Implements the CommandletPlugin module.
  */

@@ -18,7 +18,7 @@ public:
 
 	virtual int32 Main(const FString& Params) override
 	{
-		GLog->Logf(TEXT("Hello world!"));
+		UE_LOG(LogCommandletPlugin, Display, TEXT("Hello world!"));
 
 		return 0;
 	}
