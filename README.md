@@ -2,6 +2,8 @@
 
 Unreal Engine 4 plug-in that that demonstrates how to implement a commandlet.
 
+![Screenshot](Docs/screenshot.png)
+
 
 ## Supported Platforms
 
