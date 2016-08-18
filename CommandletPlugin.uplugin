@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Commandlet Plug-in",
+	"Description" : "Demonstates how to implement a commandlet in a plug-in.",
+	"Category" : "Editor",
+	"CreatedBy" : "Headcrash Industries LLC",
+	"CreatedByURL" : "http://headcrash.industries",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "https://github.com/ue4plugins/CommandletPlugin",
+	"EnabledByDefault" : true,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "CommandletPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
