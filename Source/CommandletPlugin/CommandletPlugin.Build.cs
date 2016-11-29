@@ -16,8 +16,8 @@ namespace UnrealBuildTool.Rules
 
 			PrivateIncludePaths.AddRange(
 				new string[] {
-					"Runtime/CommandletPlugin/Private",
-					"Runtime/CommandletPlugin/Private/Commandlets"
+					"CommandletPlugin/Private",
+					"CommandletPlugin/Private/Commandlets"
 				}
 			);
 		}
