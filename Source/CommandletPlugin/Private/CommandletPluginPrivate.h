@@ -2,8 +2,8 @@
 
 #pragma once
 
-#include "Runtime/Core/Public/Core.h"
-#include "Runtime/CoreUObject/Public/CoreUObject.h"
+#include "CoreMinimal.h"
 
 
+/** Declares a log category for this module. */
 DECLARE_LOG_CATEGORY_EXTERN(LogCommandletPlugin, Log, All);
