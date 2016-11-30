@@ -1,7 +1,9 @@
 // Copyright 2015 Headcrash Industries LLC. All Rights Reserved.
 
 #include "CommandletPluginPrivate.h"
-#include "ModuleInterface.h"
+
+#include "Modules/ModuleInterface.h"
+#include "Modules/ModuleManager.h"
 
 
 DEFINE_LOG_CATEGORY(LogCommandletPlugin);
