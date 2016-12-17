@@ -1,7 +1,8 @@
 {
 	"FileVersion" : 3,
-	"Version" : 1,
-	"VersionName" : "1.0",
+	"Version" : 3,
+	"VersionName" : "3.0",
+	"EngineVersion" : "4.15.0",
 	"FriendlyName" : "Commandlet Plugin",
 	"Description" : "Demonstates how to implement a commandlet in a plug-in.",
 	"Category" : "Examples",
