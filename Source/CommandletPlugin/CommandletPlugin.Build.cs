@@ -4,7 +4,7 @@ namespace UnrealBuildTool.Rules
 {
 	public class CommandletPlugin : ModuleRules
 	{
-		public CommandletPlugin(TargetInfo Target)
+		public CommandletPlugin(ReadOnlyTargetRules Target) : base(Target)
 		{
             PrivateDependencyModuleNames.AddRange(
                 new string[] {
