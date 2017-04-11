@@ -6,6 +6,8 @@ namespace UnrealBuildTool.Rules
 	{
 		public CommandletPlugin(ReadOnlyTargetRules Target) : base(Target)
 		{
+            PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
             PrivateDependencyModuleNames.AddRange(
                 new string[] {
 					"Core",
@@ -20,6 +22,6 @@ namespace UnrealBuildTool.Rules
 					"CommandletPlugin/Private/Commandlets"
 				}
 			);
-		}
+        }
 	}
 }
