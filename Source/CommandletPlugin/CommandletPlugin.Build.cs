@@ -6,22 +6,20 @@ namespace UnrealBuildTool.Rules
 	{
 		public CommandletPlugin(ReadOnlyTargetRules Target) : base(Target)
 		{
-            PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+			PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-            PrivateDependencyModuleNames.AddRange(
-                new string[] {
+			PrivateDependencyModuleNames.AddRange(
+				new string[] {
 					"Core",
 					"CoreUObject",
 					"Engine",
-                }
-            );
+				});
 
 			PrivateIncludePaths.AddRange(
 				new string[] {
 					"CommandletPlugin/Private",
 					"CommandletPlugin/Private/Commandlets"
-				}
-			);
-        }
+				});
+		}
 	}
 }
