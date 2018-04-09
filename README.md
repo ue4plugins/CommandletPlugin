@@ -7,7 +7,7 @@ Unreal Engine 4 plug-in that that demonstrates how to implement a commandlet.
 
 ## Supported Platforms
 
-This plug-in was last built against **Unreal Engine 4.17**. It works on all
+This plug-in was last built against **Unreal Engine 4.19**. It works on all
 platforms.
 
 
